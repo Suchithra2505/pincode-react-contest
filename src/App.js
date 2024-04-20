@@ -69,8 +69,15 @@ function App() {
             className="pincode-input"
           />
         </div>
-        
-        <button type="submit" className="lookup-button">Lookup</button>
+        <br></br>
+        <button type="submit" className="lookup-button" style={{
+    padding: '8px 20px',
+    backgroundColor: '#041323',
+    color: 'white',
+    border: 'none',
+    cursor: 'pointer',
+    marginLeft: '20px'
+  }}>Lookup</button>
         <div className="filter-container">
           <input
             type="text"

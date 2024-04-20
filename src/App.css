@@ -135,11 +135,10 @@
   left: 41px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
-  /*opacity: 0px;*/
 }
 .App {
   text-align: center;
-  /*   */
+ 
 }
 
 .form-container {
@@ -207,7 +206,7 @@
   left: 41px;
   gap: 0px;
   border-radius: 10px 0px 0px 0px;
-  opacity: 0px;
+ 
 }
 
 .result-card:hover {

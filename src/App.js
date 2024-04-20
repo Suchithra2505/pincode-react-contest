@@ -70,6 +70,7 @@ function App() {
           />
         </div>
         <br></br>
+        <marquee>Click below in case Lookup button is not getting displayed  </marquee>
         <button type="submit" className="lookup-button" style={{
     padding: '8px 20px',
     backgroundColor: '#041323',

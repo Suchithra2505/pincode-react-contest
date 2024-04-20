@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/pincode-react-contest/static/css/main.3d763cd1.css",
-    "main.js": "/pincode-react-contest/static/js/main.db9549c3.js",
+    "main.css": "/pincode-react-contest/static/css/main.169d34be.css",
+    "main.js": "/pincode-react-contest/static/js/main.b6666d27.js",
     "index.html": "/pincode-react-contest/index.html",
-    "main.3d763cd1.css.map": "/pincode-react-contest/static/css/main.3d763cd1.css.map",
-    "main.db9549c3.js.map": "/pincode-react-contest/static/js/main.db9549c3.js.map"
+    "main.169d34be.css.map": "/pincode-react-contest/static/css/main.169d34be.css.map",
+    "main.b6666d27.js.map": "/pincode-react-contest/static/js/main.b6666d27.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d763cd1.css",
-    "static/js/main.db9549c3.js"
+    "static/css/main.169d34be.css",
+    "static/js/main.b6666d27.js"
   ]
 }

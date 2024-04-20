@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -34,5 +34,255 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+*/
+
+
+.App {
+  text-align: center;
+  margin-left: 10%;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  padding-left: 20px; 
+}
+
+.pincode-input {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.lookup-button {
+ 
+  background-color: #041323;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+
+.filter-container {
+  margin-top: 10px;
+  padding-left: 20px;
+  
+  
+  justify-content: left;
+ 
+}
+
+.filter-input {
+  padding: 8px;
+  width: calc(50% + 20px); 
+  justify-content: left;
+
+}
+
+.loader {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+#pin{
+  
+  text-align: left;
+  margin-top: 20px; 
+}
+.details-box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin-top: 20px;
+  padding-left: 5%;
+  gap:5px;
+}
+
+.result-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.result-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid #000000;
+  margin-bottom: 10px;
+}
+
+.lookup-button {
+  margin-left: 2%;
+  width: 303px;
+  height: 47px;
+  top: 211px;
+  left: 41px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+}
+.App {
+  text-align: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.input-group,
+.filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; 
+  padding-left: 20px; 
+}
+
+.pincode-input,
+.filter-input {
+  padding: 8px;
+  margin-right: 5px;
+}
+
+.lookup-button {
+  padding: 8px 20px;
+  background-color: #041323;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px; 
+}
+
+.loader {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+  margin-top: 20px;
+}
+
+.details-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  margin-top: 20px;
+}
+
+.result-card {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 3px solid #000000;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.lookup-button {
+  margin-left: 2%;
+  width: 303px;
+  height: 47px;
+  top: 211px;
+  left: 41px;
+  gap: 0px;
+  border-radius: 10px 0px 0px 0px;
+  opacity: 0px;
+}
+
+.result-card:hover {
+  transform: scale(1.05); 
+}
+.result-card h2,
+.result-card p {
+  transition: transform 0.3s ease-in-out; 
+}
+
+
+.result-card:hover h2,
+.result-card:hover p {
+  transform: translateY(-5px); 
+}
+@media screen and (max-width: 768px) {
+  .pincode-input,
+  .lookup-button,
+  .filter-input {
+    width: 80%;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.App,
+.form-container,
+.input-group,
+.filter-container,
+.details-box {
+  animation: fadeIn 1s ease-in-out;
+}
+
+.result-card {
+  animation: slideIn 0.5s ease-out;
+}
+
+
+@media screen and (max-width: 768px) {
+  .pincode-input,
+  .lookup-button,
+  .filter-input {
+    width: 80%;
+  }
+
+  .lookup-button {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .result-card {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .result-card {
+    width: calc(100% - 40px); 
+    margin-left: 20px; 
+    margin-right: 20px; 
   }
 }

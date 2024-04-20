@@ -69,7 +69,7 @@ function App() {
             className="pincode-input"
           />
         </div>
-        <br />
+        
         <button type="submit" className="lookup-button">Lookup</button>
         <div className="filter-container">
           <input
